@@ -3,7 +3,4 @@ layout: post
 title: You're up and running!
 ---
 
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-Hello world!
+Hello world! I will write my first real blog soon.
