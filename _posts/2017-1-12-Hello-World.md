@@ -44,4 +44,9 @@ Funnily, we used fuzzywuzzy to merge subway stations that are the same (some of 
 
 # Metis
 ## How I feel about my first week
+I had a hypothesis that I would like data science, given that I am a programmer, and I love math. The first week here confirmed that for me. I'm happy that I've made the decision to resign from work and go back to school.
+
+I also find these We Work buildings to be very interesting. I like how there's a lot of community events and that the sort of people working in We Work are related to tech.
+
 ## Group work
+I have some general thoughts about the week of group work I just went through. In college, I've always found group projects to be frustrating. I felt like they're so easy to mismanage, that working in groups end up not as productive as working alone. I liked the fact that in my previous work, I mostly get bugs or features that I can work on end to end by myself. The point I'm trying to make is, my thoughts about group work is different after this week. Even though we had a lot of arguments, I believe it was the arguing back and forth that really pushed me to question my ways and allow me to work better than I would've been if I had worked by myself. 
