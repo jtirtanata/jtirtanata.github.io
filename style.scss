@@ -307,20 +307,19 @@ footer {
 }
 
 #tags li {
-  padding: 0 5px 0 0;
+  padding: 0 2px 0 0;
 }
 
 #tags a{
-	background:#a3bfd1;
-	color:#4a6678;
+	background:#e9e6e6;
+	color:#555555;
 	text-decoration:none;
-  opacity: 0.8;
 	border-radius:2px;
+  text-transform: uppercase;
 }
 
 #tags a:hover{
-  background:#d3deec;
-  opacity: 0.5;
+  background:#dbd7d7;
 }
 
 #tags a:hover:before{
