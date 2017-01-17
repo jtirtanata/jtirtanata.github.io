@@ -1,6 +1,8 @@
 ---
 layout: post
 title: My First Post
+tags: mta groupwork pandas data
+author: Josephine Tirtanata
 ---
 ## Project Benson
 Metis was not kidding when they said they will kick things off from day 1. On our first day, we coded, learned [pandas](http://pandas.pydata.org/), and received a project for the week. This project is called *Project Benson*, and the task is to use [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) data to come up with location recommendations for WTWY street teams to collect email addresses and potential attendees for their gala.
@@ -43,6 +45,7 @@ for name in df_income['COMPLETE_NAME'].unique():
 Funnily, we used fuzzywuzzy to merge subway stations that are the same (some of the data that were referring to the same stations have different line names), and it was only when I did the challenges at the end of the day, I found that I could've just *groupby-ed* the C/A, Unit and Station values to get the same results.
 
 ## Metis
+
 ### How I feel about my first week
 I had a hypothesis that I would like data science, given that I am a programmer, and I love math. The first week here confirmed that for me. I'm happy that I've made the decision to resign from work and go back to school.
 

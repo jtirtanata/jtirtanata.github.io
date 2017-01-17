@@ -287,3 +287,40 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+#tags {
+  margin:0px;
+	padding:10px 0;
+	right:24px;
+	bottom:-12px;
+  width: 100%;
+	list-style:none;
+}
+
+#tags li, #tags a{
+	float:left;
+	height:30px;
+	line-height:30px;
+	position:relative;
+	font-size:14px;
+  padding: 0 10px;
+}
+
+#tags li {
+  padding: 0 5px 0 0;
+}
+
+#tags a{
+	background:#a3bfd1;
+	color:#4a6678;
+	text-decoration:none;
+  opacity: 0.8;
+	border-radius:2px;
+}
+
+#tags a:hover{
+  background:#d3deec;
+  opacity: 0.5;
+}
+
+#tags a:hover:before{border-color:transparent #555 transparent transparent;}
