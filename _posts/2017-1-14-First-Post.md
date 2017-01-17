@@ -32,8 +32,9 @@ This was a really cool library that I manage to use for the project. Given two w
 
 Given that we had 2 datasets we were working with, we had trouble trying to merge these together. The problem being, the census data had a different format of subway names.
 
-With fuzzywuzzy, we were able to find the best match of each of the station names in the census data set, with the mta turnstile data.
-```python
+With fuzzywuzzy, we were able to find the best match of each of the station names in the census data set, with the mta turnstile data.  
+
+```
 name_mapping = {}
 names = df['COMPLETE_NAME'].unique()
 for name in df_income['COMPLETE_NAME'].unique():
