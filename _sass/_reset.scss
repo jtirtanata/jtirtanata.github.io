@@ -23,6 +23,12 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+p {
+	font-size: 15px;
+	color: grey;
+	font-family: "Tahoma", Geneva, sans-serif;
+}
 // HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
