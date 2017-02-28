@@ -7,7 +7,7 @@ permalink: /about/
 Josephine is a data scientist.
 
 ### More Information
-She graduated with a degree in Computer Science and a concentration in Mathematics from Columbia University. After a little over a year in software engineering, Josephine decided to delve into the world of data science.
+She graduated with a degree in Computer Science and a concentration in Mathematics from Columbia University. Currently, she is delving in to the world of data in [Metis](https://www.thisismetis.com).
 
 ### Contact
 
