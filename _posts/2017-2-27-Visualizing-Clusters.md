@@ -7,12 +7,11 @@ author: Josephine Tirtanata
 
 ## Challenges
 Visualizing clusters are easy when you want have 2 or 3 numerical features that you
-want to cluster on. But more often than not, there's a lot more than 3 features in your machine
-learning clustering tasks. And since clustering is in the sphere of unsupervised learning,
-there's not really a clear cut way to measure how good our clusters are. It is also difficult to
-distinguish the differences between each clusters. Yes, we can skim through
-the values for each cluster, and rely on our eyes to notice patterns, but I'm sure you agree
-that's not really the best way to do it. However, I didn't want to delve into complicated D3.j visuals
+want to cluster on. But more often than not, you have a lot of features and visualizing clusters in the 3D sphere is no longer possible. And since clustering is in the sphere of unsupervised learning,
+there's not really a clear cut way to measure how good your clusters are. It is also difficult to
+see the characteristics of each clusters. Yes, you can skim through
+the values for each cluster, and rely on mere glance throughs to notice patterns, but I'm sure you agree
+that's not really the best way to do it. However, I didn't want to delve into complicated D3.js visuals
 to create these visualizations, I just wanted something fast to quickly sum up what my clustering model gave back to me. For these reasons, I will go through 2 simple functions I've created to make quick and helpful clustering visuals.
 
 ### Prologue
@@ -33,7 +32,7 @@ def print_medians(df, columns, categories, label_col, metric='mean'):
             print(cur_type.groupby(cat).size())
 ```
 Usage: This function works on a pandas dataframe, where `columns` is the name of the numerical features that you want the median/mode on, and `categories` is the column names of the category that you wan't to see the count in for each cluster. `label_col` is the label that gives the number of different clusters.
-This was a good start, I can see differences in the means of features between clusters when I had 5 clusters, but it got difficult when I had 10 or more clusters.
+This was a good start, I can see differences in the means of features between clusters, but it is very difficult to gain understanding from this output when printing the medians of 10 or more clusters.
 
 #### Sample output
 
